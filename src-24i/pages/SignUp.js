@@ -4,7 +4,7 @@ import { Alert, Button, Text, TextInput, StyleSheet, Image, Input, View, ViewCom
 const SignUp = () => {
     return (
         <View style={styles.form}>
-            <Text>Register for 24i streaming services</Text>
+            <Text>Create your registration for 24i streaming services!</Text>
             <Text />
             <Image source={require('../img/24i_logo.png')} style={{ width: 98, height: 42 }} />
             <Text />
@@ -17,7 +17,7 @@ const SignUp = () => {
                 style={styles.input}
             />
             <Button
-                title="Sign up"
+                title="Sign Up"
                 color='#B02436'
                 onPress={() => Alert.alert('To send Email+Pass to register server')}
             />
